@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetrofitKotlinExample</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="lorem_ipsum">laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium</string>
+    <string name="loremipsum_gmail_com">loremipsum@gmail.com</string>
+</resources>
