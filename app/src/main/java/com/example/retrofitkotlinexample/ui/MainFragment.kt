@@ -28,8 +28,10 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         mainViewModel.getDataFromServer()
         mainViewModel.getItemList().observe(viewLifecycleOwner) {
-            commentList = it
-            binding.recyclerView.adapter = RecyclerViewAdapter(commentList)
+            it?.let {
+                commentList = it
+                binding.recyclerView.adapter = RecyclerViewAdapter(commentList)
+            }
         }
     }
 
